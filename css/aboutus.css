@@ -1,0 +1,30 @@
+body, div,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
+fieldset, form, label, legend, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section, iframe, summary, hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+.main {
+	width: 100vw;
+	height: 80vh;
+	display: flex;
+	align-items: center;;
+	justify-content: center;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Alatsi';
+	font-size: 3em;
+	color: grey;
+}
